@@ -1,0 +1,15 @@
+[package]
+name                 = "dive-kernel"
+description          = "Google Tensor SDK v2 RISC-V kernel library"
+version.workspace    = true
+edition.workspace    = true
+license.workspace    = true
+repository.workspace = true
+keywords.workspace   = true
+categories.workspace = true
+
+[dependencies]
+dive-abi.workspace = true
+
+[lints]
+workspace = true

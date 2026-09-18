@@ -1,0 +1,17 @@
+*
+!.editorconfig
+!.gitignore
+!.rustfmt.toml
+!.taplo.toml
+!Cargo.lock
+!Cargo.toml
+!LICENSE
+
+!dive-*/
+!dive-*/Cargo.toml
+
+!dive-*/src/
+!dive-*/src/**
+
+!dive-*/tests/
+!dive-*/tests/*.rs
